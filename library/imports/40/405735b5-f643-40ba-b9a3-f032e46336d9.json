@@ -1,0 +1,96 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "script",
+  "_objFlags": 0,
+  "_native": "",
+  "json": [
+    {
+      "Command": "",
+      "Arg1": "",
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "这是由脚本生成的内容",
+      "Voice": ""
+    },
+    {
+      "Command": "",
+      "Arg1": "",
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "从前有座山",
+      "Voice": ""
+    },
+    {
+      "Command": "",
+      "Arg1": "",
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "山上有座庙",
+      "Voice": ""
+    },
+    {
+      "Command": "SelectStart",
+      "Arg1": "choose",
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "",
+      "Voice": ""
+    },
+    {
+      "Command": "Select",
+      "Arg1": 1,
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "选项1",
+      "Voice": ""
+    },
+    {
+      "Command": "Select",
+      "Arg1": 2,
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "选项2",
+      "Voice": ""
+    },
+    {
+      "Command": "Select",
+      "Arg1": 3,
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "选项3",
+      "Voice": ""
+    },
+    {
+      "Command": "SelectEnd",
+      "Arg1": "",
+      "Arg2": "",
+      "Arg3": "",
+      "Arg4": "",
+      "Arg5": "",
+      "Arg6": "",
+      "Text": "",
+      "Voice": ""
+    }
+  ]
+}

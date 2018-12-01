@@ -1,0 +1,9 @@
+Command,Arg1,Arg2,Arg3,Arg4,Arg5,Arg6,Text,Voice
+,,,,,,,这是由脚本生成的内容,
+,,,,,,,从前有座山,
+,,,,,,,山上有座庙,
+SelectStart,choose,,,,,,,
+Select,1,,,,,,选项1,
+Select,2,,,,,,选项2,
+Select,3,,,,,,选项3,
+SelectEnd,,,,,,,,
