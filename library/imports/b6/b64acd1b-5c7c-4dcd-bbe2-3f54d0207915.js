@@ -7,6 +7,7 @@ var CommandParserInterface_1 = require("./CommandParserInterface");
 var SelectManager_1 = require("../SelectManager");
 var ManagerInterface_1 = require("../ManagerInterface");
 var ContentManager_1 = require("../ContentManager");
+var ContentStatus_1 = require("../enum/ContentStatus");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var SelectCommandParser = /** @class */ (function (_super) {
     __extends(SelectCommandParser, _super);
@@ -23,6 +24,7 @@ var SelectCommandParser = /** @class */ (function (_super) {
     SelectCommandParser.prototype.parse = function (jsonMessage) {
         switch (jsonMessage.Command) {
             case "SelectStart":
+                ContentManager_1.default.instance.status = ContentStatus_1.default.ReadNext;
                 if (typeof (jsonMessage.Arg1) == "undefined" || jsonMessage.Arg1 == "") {
                     cc.error("SelectStart命令应设置Arg1一个变量名用来存储玩家选择的选项");
                     return;
@@ -35,16 +37,13 @@ var SelectCommandParser = /** @class */ (function (_super) {
                 this.selectVarName = jsonMessage.Arg1;
                 break;
             case "Select":
-                if (this.isNull(jsonMessage.Arg1)) {
-                    cc.error("SelectStart命令应设置Arg1一个变量名用来存储玩家选择的选项");
-                    return;
-                }
-                if (this.isNull(jsonMessage.Text)) {
-                    cc.error("SelectStart命令应设置Text作为选项显示的文本");
+                ContentManager_1.default.instance.status = ContentStatus_1.default.ReadNext;
+                if (this.isExistNull([jsonMessage.Arg1, jsonMessage.Text])) {
+                    cc.error("SelectStart命令应设置Arg1一个变量名用来存储玩家选择的选项，Text作为选项显示的文本");
                     return;
                 }
                 var value = Number(jsonMessage.Arg1);
-                if (value == NaN || value % 1 !== 0 || !this.isNull(this.selects[value])) {
+                if (value == NaN || value % 1 !== 0 || !this.isExistNull([this.selects[value]])) {
                     cc.error("参数不合法：Select的Arg1应该是所有选项中的一个唯一的整数");
                     return;
                 }
@@ -52,24 +51,34 @@ var SelectCommandParser = /** @class */ (function (_super) {
                     cc.error("尚未执行SelectStart命令");
                     return;
                 }
-                cc.log(typeof jsonMessage.Arg1);
                 this.selects[value] = jsonMessage.Text;
                 break;
             case "SelectEnd":
-                this.selecting = false;
+                ContentManager_1.default.instance.status = ContentStatus_1.default.Select;
                 SelectManager_1.default.instance.showSelects(this.selectVarName, this.selects);
+                this.selecting = false;
+                this.selects = [];
                 return;
+            default:
+                cc.error("未知指令：" + jsonMessage.Command);
+                break;
         }
-        ContentManager_1.default.instance.next();
-    };
-    SelectCommandParser.prototype.isNull = function (value) {
-        return typeof (value) == "undefined" || value === null || value == "";
     };
     __decorate([
         property({
             visible: false,
         })
     ], SelectCommandParser.prototype, "selecting", void 0);
+    __decorate([
+        property({
+            visible: false,
+        })
+    ], SelectCommandParser.prototype, "selectVarName", void 0);
+    __decorate([
+        property({
+            visible: false,
+        })
+    ], SelectCommandParser.prototype, "selects", void 0);
     SelectCommandParser = __decorate([
         ccclass
     ], SelectCommandParser);

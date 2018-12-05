@@ -16,6 +16,8 @@ const {ccclass, property} = cc._decorator;
 @ccclass
 export default class CommandParserManager extends ManagerInterface {
 
+    static instance : CommandParserManager = null;
+
     @property([cc.Node])
     parserNodes: cc.Node[] = [];
 
@@ -36,7 +38,7 @@ export default class CommandParserManager extends ManagerInterface {
                 return;
             }
             if(!(commandParser instanceof CommandParserInterface)){
-                cc.error("Parser必须继承自CommandParserInterface");
+                cc.error("Parser必须继承自CommandParserInterface：" + node.name);
                 return;
             }
             commandParser.needParseCommand.forEach(element => {

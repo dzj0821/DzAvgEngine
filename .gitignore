@@ -1,3 +1,9 @@
 
 .vscode/
 temp/
+/assets/resources/Texture*
+/hidden
+/library
+/library
+/library*
+/library/*

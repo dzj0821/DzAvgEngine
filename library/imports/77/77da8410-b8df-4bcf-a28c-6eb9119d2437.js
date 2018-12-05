@@ -4,8 +4,6 @@ cc._RF.push(module, '77da8QQuN9Lz6KMbrkRnSQ3', 'InputManager');
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var ManagerInterface_1 = require("./ManagerInterface");
-var StatusManager_1 = require("./StatusManager");
-var Status_1 = require("./enum/Status");
 var ContentManager_1 = require("./ContentManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var InputManager = /** @class */ (function (_super) {
@@ -17,17 +15,8 @@ var InputManager = /** @class */ (function (_super) {
     InputManager.prototype.onLoad = function () {
         InputManager_1.instance = this;
     };
-    InputManager.prototype.start = function () {
-        ManagerInterface_1.default.managersIsExist([StatusManager_1.default, ContentManager_1.default]);
-    };
     InputManager.prototype.onTouchEnd = function () {
-        switch (StatusManager_1.default.instance.status) {
-            case Status_1.default.Play:
-                ContentManager_1.default.instance.next();
-                break;
-            default:
-                break;
-        }
+        ContentManager_1.default.instance.next();
     };
     var InputManager_1;
     InputManager = InputManager_1 = __decorate([

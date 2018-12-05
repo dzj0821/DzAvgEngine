@@ -1,61 +1,165 @@
-2018-12-01T09:39:14.575Z - normal: Load ~/.CocosCreator/settings.json
-2018-12-01T09:39:14.581Z - normal: checking language setting...
-2018-12-01T09:39:14.581Z - normal: Language: zh
-2018-12-01T09:39:16.320Z - success: protocol editor-framework registered
-2018-12-01T09:39:16.321Z - success: protocol app registered
-2018-12-01T09:39:16.321Z - success: protocol theme registered
-2018-12-01T09:39:16.321Z - success: protocol packages registered
-2018-12-01T09:39:16.321Z - success: protocol unpack registerred
-2018-12-01T09:39:16.321Z - success: protocol disable-commonjs registerred
-2018-12-01T09:39:16.516Z - normal: connected!
-2018-12-01T09:39:16.518Z - normal: Check project D:\code\cocos2d-x\CocosCreator\DzAvgEngine
-2018-12-01T09:39:16.521Z - normal: Initializing project D:\code\cocos2d-x\CocosCreator\DzAvgEngine
-2018-12-01T09:39:16.524Z - normal: Initializing Cocos2d
-2018-12-01T09:39:17.339Z - normal: Initializing Asset Database
-2018-12-01T09:39:17.376Z - success: protocol uuid registerred
-2018-12-01T09:39:17.376Z - success: protocol db registerred
-2018-12-01T09:39:17.376Z - success: protocol thumbnail registerred
-2018-12-01T09:39:17.376Z - normal: Loading editor/builtin packages
-2018-12-01T09:39:17.524Z - success: assets loaded
-2018-12-01T09:39:17.527Z - success: builder loaded
-2018-12-01T09:39:17.530Z - success: cocos-analytics loaded
-2018-12-01T09:39:17.535Z - success: console loaded
-2018-12-01T09:39:17.571Z - success: fb-instant-games loaded
-2018-12-01T09:39:17.573Z - success: google-instant-games loaded
-2018-12-01T09:39:17.577Z - success: hierarchy loaded
-2018-12-01T09:39:17.579Z - success: inspector loaded
-2018-12-01T09:39:17.580Z - success: keystore loaded
-2018-12-01T09:39:17.584Z - success: node-library loaded
-2018-12-01T09:39:17.585Z - success: package-asset loaded
-2018-12-01T09:39:17.586Z - success: preferences loaded
-2018-12-01T09:39:17.587Z - success: project-exporter loaded
-2018-12-01T09:39:17.602Z - success: project-importer loaded
-2018-12-01T09:39:17.604Z - success: project-settings loaded
-2018-12-01T09:39:17.607Z - success: ui-kit loaded
-2018-12-01T09:39:17.609Z - success: scene loaded
-2018-12-01T09:39:17.610Z - success: sprite-editor loaded
-2018-12-01T09:39:17.613Z - success: store loaded
-2018-12-01T09:39:17.616Z - success: timeline loaded
-2018-12-01T09:39:17.616Z - normal: Loading builtin packages
-2018-12-01T09:39:17.620Z - success: asset-db-debugger loaded
-2018-12-01T09:39:17.624Z - success: code-editor loaded
-2018-12-01T09:39:17.624Z - success: color-picker loaded
-2018-12-01T09:39:17.724Z - success: google-play-instant loaded
-2018-12-01T09:39:17.725Z - success: jsb-adapter loaded
-2018-12-01T09:39:17.729Z - success: oppo-runtime loaded
-2018-12-01T09:39:17.731Z - success: package-manager loaded
-2018-12-01T09:39:17.841Z - success: qqplay-adapter loaded
-2018-12-01T09:39:17.844Z - success: sdkbox loaded
-2018-12-01T09:39:17.847Z - success: tester loaded
-2018-12-01T09:39:17.849Z - success: ui-grid loaded
-2018-12-01T09:39:17.850Z - success: ui-kit-preview-extra loaded
-2018-12-01T09:39:17.852Z - success: ui-kit-preview loaded
-2018-12-01T09:39:17.853Z - success: ui-tree loaded
-2018-12-01T09:39:17.856Z - success: vivo-runtime loaded
-2018-12-01T09:39:17.856Z - success: weapp-adapter loaded
-2018-12-01T09:39:18.916Z - normal: Loading packages
-2018-12-01T09:39:18.926Z - normal: [LuaCPP Support] version 0.4
-2018-12-01T09:39:18.927Z - success: creator-luacpp-support loaded
-2018-12-01T09:39:18.927Z - normal: Watching packages
-2018-12-01T09:39:19.253Z - normal: Run Application
-2018-12-01T09:39:19.889Z - success: preview server running at http://localhost:7456
+2018-12-05T08:45:48.004Z - normal: Load ~/.CocosCreator/settings.json
+2018-12-05T08:45:48.004Z - normal: checking language setting...
+2018-12-05T08:45:48.004Z - normal: Language: zh
+2018-12-05T08:45:49.580Z - success: protocol editor-framework registered
+2018-12-05T08:45:49.580Z - success: protocol app registered
+2018-12-05T08:45:49.580Z - success: protocol theme registered
+2018-12-05T08:45:49.580Z - success: protocol packages registered
+2018-12-05T08:45:49.580Z - success: protocol unpack registerred
+2018-12-05T08:45:49.580Z - success: protocol disable-commonjs registerred
+2018-12-05T08:45:49.704Z - normal: connected!
+2018-12-05T08:45:49.704Z - normal: Check project D:\code\cocos2d-x\CocosCreator\DzAvgEngine
+2018-12-05T08:45:49.704Z - normal: Initializing project D:\code\cocos2d-x\CocosCreator\DzAvgEngine
+2018-12-05T08:45:49.704Z - normal: Initializing Cocos2d
+2018-12-05T08:45:50.360Z - normal: Initializing Asset Database
+2018-12-05T08:45:50.406Z - success: protocol uuid registerred
+2018-12-05T08:45:50.406Z - success: protocol db registerred
+2018-12-05T08:45:50.406Z - success: protocol thumbnail registerred
+2018-12-05T08:45:50.406Z - normal: Loading editor/builtin packages
+2018-12-05T08:45:50.531Z - success: assets loaded
+2018-12-05T08:45:50.531Z - success: builder loaded
+2018-12-05T08:45:50.531Z - success: cocos-analytics loaded
+2018-12-05T08:45:50.531Z - success: console loaded
+2018-12-05T08:45:50.578Z - success: fb-instant-games loaded
+2018-12-05T08:45:50.578Z - success: google-instant-games loaded
+2018-12-05T08:45:50.578Z - success: hierarchy loaded
+2018-12-05T08:45:50.578Z - success: inspector loaded
+2018-12-05T08:45:50.578Z - success: keystore loaded
+2018-12-05T08:45:50.578Z - success: node-library loaded
+2018-12-05T08:45:50.578Z - success: package-asset loaded
+2018-12-05T08:45:50.594Z - success: preferences loaded
+2018-12-05T08:45:50.594Z - success: project-exporter loaded
+2018-12-05T08:45:50.594Z - success: project-importer loaded
+2018-12-05T08:45:50.609Z - success: project-settings loaded
+2018-12-05T08:45:50.609Z - success: ui-kit loaded
+2018-12-05T08:45:50.609Z - success: scene loaded
+2018-12-05T08:45:50.609Z - success: sprite-editor loaded
+2018-12-05T08:45:50.609Z - success: store loaded
+2018-12-05T08:45:50.609Z - success: timeline loaded
+2018-12-05T08:45:50.609Z - normal: Loading builtin packages
+2018-12-05T08:45:50.609Z - success: asset-db-debugger loaded
+2018-12-05T08:45:50.609Z - success: code-editor loaded
+2018-12-05T08:45:50.625Z - success: color-picker loaded
+2018-12-05T08:45:50.687Z - success: google-play-instant loaded
+2018-12-05T08:45:50.687Z - success: jsb-adapter loaded
+2018-12-05T08:45:50.703Z - success: oppo-runtime loaded
+2018-12-05T08:45:50.703Z - success: package-manager loaded
+2018-12-05T08:45:50.781Z - success: qqplay-adapter loaded
+2018-12-05T08:45:50.796Z - success: sdkbox loaded
+2018-12-05T08:45:50.796Z - success: tester loaded
+2018-12-05T08:45:50.796Z - success: ui-grid loaded
+2018-12-05T08:45:50.796Z - success: ui-kit-preview-extra loaded
+2018-12-05T08:45:50.796Z - success: ui-kit-preview loaded
+2018-12-05T08:45:50.796Z - success: ui-tree loaded
+2018-12-05T08:45:50.796Z - success: vivo-runtime loaded
+2018-12-05T08:45:50.796Z - success: weapp-adapter loaded
+2018-12-05T08:45:51.748Z - normal: Loading packages
+2018-12-05T08:45:51.764Z - normal: [LuaCPP Support] version 0.4
+2018-12-05T08:45:51.764Z - success: creator-luacpp-support loaded
+2018-12-05T08:45:51.764Z - normal: Watching packages
+2018-12-05T08:45:52.076Z - normal: Run Application
+2018-12-05T08:45:52.500Z - success: preview server running at http://localhost:7456
+2018-12-05T09:00:01.182Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2018-12-05T09:00:01.184Z - normal: Simulator: WORKAREA WIDTH 1912.00, HEIGHT 990.00
+2018-12-05T09:00:01.185Z - normal: Simulator: FRAME SCALE = 1.00
+2018-12-05T09:00:01.791Z - normal: Simulator: Ready for GLSL
+2018-12-05T09:00:01.791Z - normal: Simulator: Ready for OpenGL 2.0
+2018-12-05T09:00:01.834Z - normal: Simulator: Project Config:
+2018-12-05T09:00:01.836Z - normal: Simulator:     project dir: D:\Program Files\CocosCreator\resources\cocos2d-x\simulator\win32\
+2018-12-05T09:00:01.837Z - normal: Simulator:     writable path: $(PROJDIR)\
+2018-12-05T09:00:01.874Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2018-12-05T09:00:01.875Z - normal: Simulator:     frame size: 1280 x 720
+2018-12-05T09:00:01.875Z - normal: Simulator:     frame scale: 1.00
+2018-12-05T09:00:01.875Z - normal: Simulator:     show console: NO
+2018-12-05T09:00:01.875Z - normal: Simulator:     write debug log: NO ()
+2018-12-05T09:00:01.875Z - normal: Simulator:     listen: 
+2018-12-05T09:00:01.875Z - normal: Simulator:     debugger: none
+2018-12-05T09:00:01.876Z - normal: Simulator:     add searching path:
+2018-12-05T09:00:01.876Z - normal: Simulator: 
+2018-12-05T09:00:01.876Z - normal: Simulator: 
+2018-12-05T09:00:01.876Z - normal: Simulator: 
+2018-12-05T09:00:01.876Z - normal: Simulator: resetDesignResolution request
+2018-12-05T09:00:01.877Z - normal: Simulator: ------------------------------------------------
+2018-12-05T09:00:01.877Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2018-12-05T09:00:01.877Z - normal: Simulator: ------------------------------------------------
+2018-12-05T09:00:01.877Z - normal: Simulator: D/jswrapper (368): Initializing V8, version: 6.0.286.52
+2018-12-05T09:00:02.474Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2018-12-05T09:00:02.483Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2018-12-05T09:00:02.484Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2018-12-05T09:00:02.587Z - normal: Simulator: D/jswrapper (129): JS: Enable batch GL commands optimization!
+2018-12-05T09:00:02.590Z - normal: Simulator: resetDesignResolution request
+2018-12-05T09:00:02.590Z - normal: Simulator: ------------------------------------------------
+2018-12-05T09:00:02.590Z - normal: Simulator: LOAD Js FILE: main.js
+2018-12-05T09:00:02.590Z - normal: Simulator: ------------------------------------------------
+2018-12-05T09:00:03.341Z - normal: Simulator: iShow!
+2018-12-05T09:00:03.350Z - normal: Simulator: D/jswrapper (3708): glGetIntegerv: pname: 0x8b4c
+2018-12-05T09:00:03.354Z - normal: Simulator: D/jswrapper (3708): glGetIntegerv: pname: 0x8869
+2018-12-05T09:00:03.393Z - normal: Simulator: D/jswrapper (129): JS: Cocos Creator v2.0.5
+2018-12-05T09:00:03.710Z - normal: Simulator: D/jswrapper (129): JS: 设置变量Canvas为[object Object]
+2018-12-05T09:00:03.769Z - normal: Simulator: D/jswrapper (129): JS: 设置变量juexing为0
+2018-12-05T09:00:03.770Z - normal: Simulator: D/jswrapper (129): JS: 设置变量娜可露露1为[object Object]
+2018-12-05T09:00:03.770Z - normal: Simulator: D/jswrapper (129): JS: 设置变量娜可露露2为[object Object]
+2018-12-05T09:00:03.770Z - normal: Simulator: D/jswrapper (129): JS: 设置变量娜可露露3为[object Object]
+2018-12-05T09:00:03.770Z - normal: Simulator: D/jswrapper (129): JS: 设置变量橘祐京1为[object Object]
+2018-12-05T09:00:03.771Z - normal: Simulator: D/jswrapper (129): JS: 设置变量橘祐京2为[object Object]
+2018-12-05T09:00:03.771Z - normal: Simulator: D/jswrapper (129): JS: 设置变量橘祐京3为[object Object]
+2018-12-05T09:00:03.771Z - normal: Simulator: D/jswrapper (129): JS: 设置变量主角为[object Object]
+2018-12-05T09:00:03.771Z - normal: Simulator: D/jswrapper (129): JS: 设置变量摊主为[object Object]
+2018-12-05T09:00:03.771Z - normal: Simulator: D/jswrapper (129): JS: 设置变量黑衣人为[object Object]
+2018-12-05T09:00:03.771Z - normal: Simulator: D/jswrapper (129): JS: 设置变量人群为[object Object]
+2018-12-05T09:00:03.788Z - normal: Simulator: D/jswrapper (129): JS: 设置变量地狱为[object Object]
+2018-12-05T09:00:03.792Z - normal: Simulator: D/jswrapper (129): JS: 设置变量居所为[object Object]
+2018-12-05T09:00:03.800Z - normal: Simulator: D/jswrapper (129): JS: 设置变量祭典为[object Object]
+2018-12-05T09:00:03.847Z - normal: Simulator: D/jswrapper (129): JS: 设置变量悬崖为[object Object]
+2018-12-05T09:00:03.848Z - normal: Simulator: D/jswrapper (129): JS: 设置变量烟花为[object Object]
+2018-12-05T09:00:03.848Z - normal: Simulator: D/jswrapper (129): JS: 设置变量黑为[object Object]
+2018-12-05T09:00:03.849Z - normal: Simulator: D/jswrapper (129): JS: 设置变量娜可露露中间为[object Object]
+2018-12-05T09:00:03.849Z - normal: Simulator: D/jswrapper (129): JS: 设置变量橘祐京中间为[object Object]
+2018-12-05T09:00:03.849Z - normal: Simulator: D/jswrapper (129): JS: 设置变量摊主中间为[object Object]
+2018-12-05T09:00:03.849Z - normal: Simulator: D/jswrapper (129): JS: 设置变量黑衣人中间为[object Object]
+2018-12-05T09:00:03.850Z - normal: Simulator: D/jswrapper (129): JS: 设置变量name为主角的名字
+2018-12-05T09:00:03.850Z - normal: Simulator: D/jswrapper (129): JS: 设置对话栏是否开启：false
+2018-12-05T09:00:03.851Z - normal: Simulator: D/jswrapper (129): JS: 播放动画：FadeIn
+2018-12-05T09:00:04.061Z - normal: Simulator: D/jswrapper (129): JS: [ERROR]: 加载SpriteFrame失败，cc.SpriteFrame in "resources/Texture/BG/祭典" does not exist.
+2018-12-05T09:00:04.991Z - normal: Simulator: D/jswrapper (129): JS: 播放动画：FadeIn
+2018-12-05T09:00:06.211Z - normal: Simulator: D/jswrapper (129): JS: 播放动画：FadeIn
+2018-12-05T09:00:07.445Z - normal: Simulator: D/jswrapper (129): JS: 播放动画：FadeIn
+2018-12-05T09:00:08.473Z - normal: Simulator: D/jswrapper (129): JS: 设置对话栏是否开启：true
+2018-12-05T09:00:08.477Z - normal: Simulator: D/jswrapper (129): JS: load:Texture/Character/剑士
+2018-12-05T09:00:10.422Z - normal: Simulator: D/jswrapper (129): JS: 设置变量choose为1
+2018-12-05T09:00:10.422Z - normal: Simulator: D/jswrapper (129): JS: choose==2表达式的值为：false
+2018-12-05T09:00:10.422Z - normal: Simulator: D/jswrapper (129): JS: choose==1表达式的值为：true
+2018-12-05T09:00:11.670Z - normal: Simulator: D/jswrapper (452): ScriptEngine::cleanup begin ...
+2018-12-05T09:00:11.671Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 31, all objects: 95
+2018-12-05T09:00:11.798Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 31, all objects: 95
+2018-12-05T09:00:11.798Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 31, all objects: 95
+2018-12-05T09:00:11.893Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 31, all objects: 95
+2018-12-05T09:00:11.893Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (1) by GC
+2018-12-05T09:00:11.894Z - normal: Simulator: D/jswrapper (316): Destroy WebGLProgram (3) by GC
+2018-12-05T09:00:11.894Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (3) by GC
+2018-12-05T09:00:11.894Z - normal: Simulator: D/jswrapper (259): Destroy WebGLBuffer (1) by GC
+2018-12-05T09:00:11.895Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (9) by GC
+2018-12-05T09:00:11.896Z - normal: Simulator: D/jswrapper (259): Destroy WebGLBuffer (2) by GC
+2018-12-05T09:00:11.896Z - normal: Simulator: D/jswrapper (259): Destroy WebGLBuffer (3) by GC
+2018-12-05T09:00:11.897Z - normal: Simulator: D/jswrapper (259): Destroy WebGLBuffer (4) by GC
+2018-12-05T09:00:11.897Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (10) by GC
+2018-12-05T09:00:11.899Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (2) by GC
+2018-12-05T09:00:11.899Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (4) by GC
+2018-12-05T09:00:11.899Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (5) by GC
+2018-12-05T09:00:11.899Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (6) by GC
+2018-12-05T09:00:11.899Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (7) by GC
+2018-12-05T09:00:11.900Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (8) by GC
+2018-12-05T09:00:11.910Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (16) by GC
+2018-12-05T09:00:11.910Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (11) by GC
+2018-12-05T09:00:11.911Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (12) by GC
+2018-12-05T09:00:11.912Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (13) by GC
+2018-12-05T09:00:11.913Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (14) by GC
+2018-12-05T09:00:11.913Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (15) by GC
+2018-12-05T09:00:11.913Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (17) by GC
+2018-12-05T09:00:11.913Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (18) by GC
+2018-12-05T09:00:11.913Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (19) by GC
+2018-12-05T09:00:11.914Z - normal: Simulator: D/jswrapper (240): Destroy WebGLTexture (22) by GC
+2018-12-05T09:00:11.914Z - normal: Simulator: D/jswrapper (297): Destroy WebGLFramebuffer (1) by GC
+2018-12-05T09:00:11.914Z - normal: Simulator: D/jswrapper (593): GC begin ..., (js->native map) size: 0, all objects: 0
+2018-12-05T09:00:12.046Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 0, all objects: 0
+2018-12-05T09:00:12.047Z - normal: Simulator: D/jswrapper (515): ScriptEngine::cleanup end ...

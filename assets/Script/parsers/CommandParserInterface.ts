@@ -17,4 +17,14 @@ export default abstract class CommandParserInterface extends cc.Component {
     needParseCommand: string[] = [];
     
     abstract parse(jsonMessage);
+
+    isExistNull(value: any[]): boolean{
+        for(let i = 0; i < value.length; i++){
+            let element = value[i];
+            if(typeof(element) == "undefined" || element === null || element === ""){
+                return true;
+            }
+        }
+        return false;
+    }
 }

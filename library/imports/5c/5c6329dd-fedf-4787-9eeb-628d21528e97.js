@@ -35,7 +35,7 @@ var CommandParserManager = /** @class */ (function (_super) {
                 return;
             }
             if (!(commandParser instanceof CommandParserInterface_1.default)) {
-                cc.error("Parser必须继承自CommandParserInterface");
+                cc.error("Parser必须继承自CommandParserInterface：" + node.name);
                 return;
             }
             commandParser.needParseCommand.forEach(function (element) {
@@ -54,6 +54,7 @@ var CommandParserManager = /** @class */ (function (_super) {
         this.commandParsers[jsonMessage.Command].parse(jsonMessage);
     };
     var CommandParserManager_1;
+    CommandParserManager.instance = null;
     __decorate([
         property([cc.Node])
     ], CommandParserManager.prototype, "parserNodes", void 0);

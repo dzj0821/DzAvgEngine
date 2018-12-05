@@ -1,11 +1,10 @@
 "use strict";
 cc._RF.push(module, 'bededuJyl9G7oqaxdRtYiXh', 'SelectButton');
-// Script/SelectButton.ts
+// Script/vo/SelectButton.ts
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var VarManager_1 = require("./VarManager");
-var SelectManager_1 = require("./SelectManager");
-var ManagerInterface_1 = require("./ManagerInterface");
+var VarManager_1 = require("./../VarManager");
+var SelectManager_1 = require("./../SelectManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 /**
  * 绑定在默认选项按钮下
@@ -26,8 +25,10 @@ var SelectButton = /** @class */ (function (_super) {
             SelectManager_1.default.instance.endSelects();
         });
     };
-    SelectButton.prototype.start = function () {
-        ManagerInterface_1.default.managersIsExist([VarManager_1.default, SelectManager_1.default]);
+    SelectButton.prototype.init = function (varName, value, showText) {
+        this.varName = varName;
+        this.value = value;
+        this.textLabel.string = showText;
     };
     var SelectButton_1;
     __decorate([

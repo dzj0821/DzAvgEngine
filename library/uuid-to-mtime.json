@@ -250,27 +250,27 @@
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1543651981646,
+    "asset": 1543938845603,
     "meta": 1543504900247,
     "relativePath": "Script"
   },
   "2f21e47c-884b-4816-ad25-5c3ba0903612": {
-    "asset": 1543656818819,
-    "meta": 1543656818840,
+    "asset": 1543999354682,
+    "meta": 1543999354695,
     "relativePath": "Scene\\MainScene.fire"
   },
   "696a16e8-6113-49e4-a094-3e342177578f": {
-    "asset": 1543547343738,
+    "asset": 1543901867073,
     "meta": 1543547343736,
-    "relativePath": "Resources"
+    "relativePath": "resources"
   },
   "a9c2ed74-5a53-43a8-9d70-b67409a23e1f": {
-    "asset": 1543547401736,
+    "asset": 1543995700420,
     "meta": 1543547343738,
-    "relativePath": "Resources\\json"
+    "relativePath": "resources\\json"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1543507178739,
+    "asset": 1543744950402,
     "meta": 1543504900248,
     "relativePath": "Texture"
   },
@@ -280,83 +280,268 @@
     "relativePath": "Texture\\singleColor.png"
   },
   "1ae29373-a6ab-47e1-ab3f-87ff1f12ff5e": {
-    "asset": 1543570437753,
+    "asset": 1543988968920,
     "meta": 1543560882499,
     "relativePath": "Script\\parsers"
   },
-  "5e39021e-205a-4ee7-a200-b976cf1ef371": {
-    "asset": 1543561162032,
-    "meta": 1543561168239,
-    "relativePath": "Script\\DialogWindowManager.ts"
-  },
   "630fa1da-8ff0-436b-aa3f-e6171e041b9f": {
-    "asset": 1543593297402,
+    "asset": 1543811534823,
     "meta": 1543593285773,
     "relativePath": "Script\\enum"
-  },
-  "59b75470-5135-42f7-b7cf-22039095679a": {
-    "asset": 1543593399472,
-    "meta": 1543593407632,
-    "relativePath": "Script\\StatusManager.ts"
-  },
-  "6b496587-1ff1-4ddc-85bd-01e1263d0d42": {
-    "asset": 1543597407386,
-    "meta": 1543597409172,
-    "relativePath": "Script\\ContentManager.ts"
-  },
-  "6b48a004-ae0a-41b0-933f-6da001647e6b": {
-    "asset": 1543637578914,
-    "meta": 1543637579397,
-    "relativePath": "Script\\parsers\\DialogCommandParser.ts"
-  },
-  "04241117-cadf-4c64-9216-ed214057d8ca": {
-    "asset": 1543637594459,
-    "meta": 1543637594883,
-    "relativePath": "Script\\parsers\\CommandParserInterface.ts"
-  },
-  "5c6329dd-fedf-4787-9eeb-628d21528e97": {
-    "asset": 1543637752125,
-    "meta": 1543637792826,
-    "relativePath": "Script\\parsers\\CommandParserManager.ts"
-  },
-  "43d11845-c1b0-40f6-8fa1-7490bf32464a": {
-    "asset": 1543646193918,
-    "meta": 1543646482660,
-    "relativePath": "Script\\VarManager.ts"
-  },
-  "582e5c08-9883-466f-afbe-0cb99d5162e1": {
-    "asset": 1543648322883,
-    "meta": 1543648324902,
-    "relativePath": "Script\\enum\\Status.ts"
   },
   "52057fbe-1107-4977-8b43-0cdbfe332596": {
     "asset": 1543649362179,
     "meta": 1543649371849,
     "relativePath": "Script\\ManagerInterface.ts"
   },
-  "77da8410-b8df-4bcf-a28c-6eb9119d2437": {
-    "asset": 1543650638177,
-    "meta": 1543650639073,
-    "relativePath": "Script\\InputManager.ts"
+  "fb016010-c33c-47e0-9796-62d79298feb0": {
+    "asset": 1515051649846,
+    "meta": 1543744952148,
+    "relativePath": "resources\\test.png"
   },
-  "bededb89-ca5f-46ee-8a9a-c5d46d6225e1": {
-    "asset": 1543654153291,
-    "meta": 1543654154548,
-    "relativePath": "Script\\SelectButton.ts"
+  "888eb1b8-e59f-4dbc-b226-784a4231d8d1": {
+    "asset": 1543892125417,
+    "meta": 1543803874311,
+    "relativePath": "Script\\parsers\\var"
   },
-  "bc8fd3df-5ada-449d-93c8-58380f6660d5": {
-    "asset": 1543654259720,
-    "meta": 1543654354060,
-    "relativePath": "Script\\SelectManager.ts"
+  "04241117-cadf-4c64-9216-ed214057d8ca": {
+    "asset": 1543810635426,
+    "meta": 1543810637751,
+    "relativePath": "Script\\parsers\\CommandParserInterface.ts"
+  },
+  "e44467fd-541c-4ddd-953d-d7346b014ad8": {
+    "asset": 1543892944407,
+    "meta": 1543811924450,
+    "relativePath": "Script\\vo"
+  },
+  "8f152b6a-629e-4ddf-b054-7a6f7d959235": {
+    "asset": 1543815172632,
+    "meta": 1543815709006,
+    "relativePath": "Script\\ResourceManager.ts"
+  },
+  "ad1be2f9-fdbf-41a9-a438-0c1934933740": {
+    "asset": 1543936381016,
+    "meta": 1543817604586,
+    "relativePath": "Script\\parsers\\sprite"
+  },
+  "3e4b1677-61d8-4f0e-ae66-ed5da117d633": {
+    "asset": 1543819557706,
+    "meta": 1543819674295,
+    "relativePath": "Script\\parsers\\sprite\\VisibleSpriteCommandParser.ts"
+  },
+  "5c6329dd-fedf-4787-9eeb-628d21528e97": {
+    "asset": 1543821415189,
+    "meta": 1543821417419,
+    "relativePath": "Script\\parsers\\CommandParserManager.ts"
+  },
+  "f1b6618a-d4ce-45dd-a88b-416af84a5464": {
+    "asset": 1543837706565,
+    "meta": 1543839122258,
+    "relativePath": "Script\\parsers\\var\\SpriteVarCommandParser.ts"
+  },
+  "c16ac16f-5a12-46b1-9355-1184c71ec1f9": {
+    "asset": 1543841153492,
+    "meta": 1543841290904,
+    "relativePath": "Script\\vo\\CharacterStatus.ts"
+  },
+  "6dacd4f5-05c5-46c0-9a53-112b527db97d": {
+    "asset": 1543841649449,
+    "meta": 1543841652920,
+    "relativePath": "Script\\parsers\\var\\VarCommandParser.ts"
   },
   "b64acd1b-5c7c-4dcd-bbe2-3f54d0207915": {
-    "asset": 1543654957290,
-    "meta": 1543654958724,
+    "asset": 1543842011043,
+    "meta": 1543842014601,
     "relativePath": "Script\\parsers\\SelectCommandParser.ts"
   },
+  "3f19fd24-abca-4b78-af11-bd0ccc6b10ea": {
+    "asset": 1543842472140,
+    "meta": 1543842474966,
+    "relativePath": "Script\\parsers\\IfCommandParser.ts"
+  },
+  "9f5ad1de-04cd-4fc1-934a-03f9a80962f1": {
+    "asset": 1543891096611,
+    "meta": 1543891335020,
+    "relativePath": "Script\\TextFormatManager.ts"
+  },
+  "2bd980a5-f349-47d4-9837-ebb7f3f635d1": {
+    "asset": 1543892144112,
+    "meta": 1543892215062,
+    "relativePath": "Script\\parsers\\var\\NumberVarCommandParser.ts"
+  },
+  "98421c2f-0b1f-45d7-8493-b04700194cc3": {
+    "asset": 1543892559593,
+    "meta": 1543892564438,
+    "relativePath": "Script\\parsers\\var\\StringVarCommandParser.ts"
+  },
+  "77da8410-b8df-4bcf-a28c-6eb9119d2437": {
+    "asset": 1543892739745,
+    "meta": 1543892938349,
+    "relativePath": "Script\\InputManager.ts"
+  },
+  "a126238b-b374-4225-9010-b1255d8a6444": {
+    "asset": 1543893883847,
+    "meta": 1543893899125,
+    "relativePath": "Script\\InputBoxManager.ts"
+  },
+  "bc8fd3df-5ada-449d-93c8-58380f6660d5": {
+    "asset": 1543893199490,
+    "meta": 1543893899212,
+    "relativePath": "Script\\SelectManager.ts"
+  },
+  "bededb89-ca5f-46ee-8a9a-c5d46d6225e1": {
+    "asset": 1543893166331,
+    "meta": 1543893899320,
+    "relativePath": "Script\\vo\\SelectButton.ts"
+  },
+  "7f71a3c5-f7a2-435a-8f52-28f55ddcdd25": {
+    "asset": 1543894274232,
+    "meta": 1543894275967,
+    "relativePath": "Script\\vo\\InputBox.ts"
+  },
+  "7b2caef2-9005-4157-b2ec-813413f6b683": {
+    "asset": 1543901894876,
+    "meta": 1543901867074,
+    "relativePath": "resources\\Texture"
+  },
+  "cf7e19d6-c259-47f0-8847-9a60c8132556": {
+    "asset": 1543901893783,
+    "meta": 1543901894876,
+    "relativePath": "resources\\Texture\\Character"
+  },
+  "82804852-7a1e-43a6-87bf-4029f462ba0d": {
+    "asset": 1543900278000,
+    "meta": 1543901894929,
+    "relativePath": "resources\\Texture\\Character\\剑士.png"
+  },
+  "6cbab5a2-688e-40a6-ad00-7a102d473a05": {
+    "asset": 1543900254000,
+    "meta": 1543901894931,
+    "relativePath": "resources\\Texture\\Character\\娜可露露.png"
+  },
+  "3851dcdb-3b6a-4794-bc7b-02673ef85a77": {
+    "asset": 1543900304000,
+    "meta": 1543901894941,
+    "relativePath": "resources\\Texture\\Character\\对话底板.png"
+  },
+  "2ee01fb1-5d98-497c-9f1f-270259a25018": {
+    "asset": 1543900226000,
+    "meta": 1543901894955,
+    "relativePath": "resources\\Texture\\Character\\橘祐京.png"
+  },
+  "ee89a26c-299a-47c9-bda4-0adc55c59c7b": {
+    "asset": 1543900292000,
+    "meta": 1543901894962,
+    "relativePath": "resources\\Texture\\Character\\男人1.png"
+  },
+  "06048bdb-870f-4fb0-a471-6fc82bc32c97": {
+    "asset": 1543900234000,
+    "meta": 1543901894985,
+    "relativePath": "resources\\Texture\\Character\\苍月下忍.png"
+  },
+  "7a9103ad-3c49-451e-9697-52594186bae0": {
+    "asset": 1543902365431,
+    "meta": 1543902368547,
+    "relativePath": "Script\\parsers\\FormatCommandParser.ts"
+  },
+  "f35c1fa7-4cb7-4e4a-b49d-763c00cf5b29": {
+    "asset": 1543911426042,
+    "meta": 1543929905186,
+    "relativePath": "Script\\parsers\\var\\CharacterStatusVarCommandParser.ts"
+  },
+  "b97acea2-ba2d-4e29-ad70-18b4c03f1189": {
+    "asset": 1543937875284,
+    "meta": 1543938269524,
+    "relativePath": "Script\\enum\\ContentStatus.ts"
+  },
+  "b8ae277e-62ca-4074-97f6-a8d70ae5f1a3": {
+    "asset": 1543940267146,
+    "meta": 1543940606504,
+    "relativePath": "Script\\SpriteManager.ts"
+  },
+  "4aa92742-c8fd-4f57-9b45-8f71692e0b6a": {
+    "asset": 1543940961893,
+    "meta": 1543940967329,
+    "relativePath": "Script\\parsers\\sprite\\SpriteCommandParser.ts"
+  },
+  "6b48a004-ae0a-41b0-933f-6da001647e6b": {
+    "asset": 1543943104153,
+    "meta": 1543943108591,
+    "relativePath": "Script\\parsers\\DialogCommandParser.ts"
+  },
+  "6b496587-1ff1-4ddc-85bd-01e1263d0d42": {
+    "asset": 1543946599693,
+    "meta": 1543946601917,
+    "relativePath": "Script\\ContentManager.ts"
+  },
+  "2c3919cd-f245-4769-a02f-3d8985ebd367": {
+    "asset": 1543948918492,
+    "meta": 1543948919685,
+    "relativePath": "Script\\parsers\\PlayAnimationCommandParser.ts"
+  },
+  "5f3bf84e-ac18-4320-bda8-454f094eac46": {
+    "asset": 1543989439161,
+    "meta": 1543989531619,
+    "relativePath": "Script\\parsers\\WaitCommandParser.ts"
+  },
   "405735b5-f643-40ba-b9a3-f032e46336d9": {
-    "asset": 1543657196103,
-    "meta": 1543657197802,
-    "relativePath": "Resources\\json\\script.json"
+    "asset": 1543999253524,
+    "meta": 1543999270655,
+    "relativePath": "resources\\json\\script.json"
+  },
+  "5e39021e-205a-4ee7-a200-b976cf1ef371": {
+    "asset": 1543999703487,
+    "meta": 1543999709138,
+    "relativePath": "Script\\DialogWindowManager.ts"
+  },
+  "9b428603-79a7-4ce0-833f-4e0356fc6097": {
+    "asset": 1543999748132,
+    "meta": 1543999748124,
+    "relativePath": "resources\\Texture\\BG"
+  },
+  "0d26daab-ddd8-4d20-9e8b-bcc0bca700c5": {
+    "asset": 1543915988000,
+    "meta": 1543999748260,
+    "relativePath": "resources\\Texture\\BG\\地狱.jpg"
+  },
+  "d1d3bbeb-9782-4332-91fc-09656a457214": {
+    "asset": 1543915278000,
+    "meta": 1543999748280,
+    "relativePath": "resources\\Texture\\BG\\居所.jpg"
+  },
+  "11c2229d-64e8-4f08-ba12-46d3e688bded": {
+    "asset": 1543916100000,
+    "meta": 1543999748380,
+    "relativePath": "resources\\Texture\\BG\\庙会.jpg"
+  },
+  "5fd3a2d0-d6c9-4ef9-88af-a528ff1eb16c": {
+    "asset": 1543913908000,
+    "meta": 1543999748395,
+    "relativePath": "resources\\Texture\\BG\\悬崖.jpg"
+  },
+  "2402e309-4b2b-41e8-a3e2-0bb3f6e68feb": {
+    "asset": 1543990576000,
+    "meta": 1543999748420,
+    "relativePath": "resources\\Texture\\BG\\黑.jpg"
+  },
+  "556ca5e3-6557-4fce-b4f6-e5ae25c53281": {
+    "asset": 1543916100000,
+    "meta": 1543999748476,
+    "relativePath": "resources\\Texture\\BG\\烟花.jpg"
+  },
+  "43d11845-c1b0-40f6-8fa1-7490bf32464a": {
+    "asset": 1543999843643,
+    "meta": 1543999844940,
+    "relativePath": "Script\\VarManager.ts"
+  },
+  "67fe2e32-aee3-49ee-94e7-d6734319759f": {
+    "asset": 1543999917597,
+    "meta": 1543999919289,
+    "relativePath": "Script\\AnimationManager.ts"
+  },
+  "b0b5e3a2-eb07-4465-9af1-a8db282b2634": {
+    "asset": 1544000060725,
+    "meta": 1544000062496,
+    "relativePath": "Script\\parsers\\DialogWindowCommandParser.ts"
   }
 }

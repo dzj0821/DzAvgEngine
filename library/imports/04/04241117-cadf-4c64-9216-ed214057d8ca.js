@@ -20,6 +20,15 @@ var CommandParserInterface = /** @class */ (function (_super) {
         _this.needParseCommand = [];
         return _this;
     }
+    CommandParserInterface.prototype.isExistNull = function (value) {
+        for (var i = 0; i < value.length; i++) {
+            var element = value[i];
+            if (typeof (element) == "undefined" || element === null || element === "") {
+                return true;
+            }
+        }
+        return false;
+    };
     __decorate([
         property([cc.String])
     ], CommandParserInterface.prototype, "needParseCommand", void 0);
