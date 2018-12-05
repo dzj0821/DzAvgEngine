@@ -20,4 +20,15 @@ export default class ResourceManager extends ManagerInterface {
             sprite.spriteFrame = spriteFrame;
         });
     }
+
+    loadAudioSource(path: string, loadEndedCallback: Function){
+        cc.loader.load(cc.url.raw("resources/" + path), function(err, result){
+            if(err){
+                cc.error("加载音频失败：" + err);
+                return;
+            }
+            cc.log(result);
+            loadEndedCallback(result);
+        });
+    }
 }

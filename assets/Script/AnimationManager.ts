@@ -1,7 +1,6 @@
 import ManagerInterface from "./ManagerInterface";
 import ContentStatus from "./enum/ContentStatus";
 import ContentManager from "./ContentManager";
-import SpriteManager from "./SpriteManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -35,7 +34,7 @@ export default class AnimationManager extends ManagerInterface {
             case "Shark":
                 let randomRange = 100;
                 let pos, random;
-                let onceTime = 0.1;
+                let onceTime = 0.05;
                 
                 
                 action = cc.sequence(cc.callFunc(function(){

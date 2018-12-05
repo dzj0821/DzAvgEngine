@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.3359375,
-      "y": 0.3359375,
+      "x": 0.24999186197916667,
+      "y": 0.24999186197916667,
       "z": 1
     },
     "_quat": {
@@ -94,13 +94,16 @@
       },
       {
         "__id__": 99
+      },
+      {
+        "__id__": 101
       }
     ],
     "_active": true,
     "_level": 0,
     "_components": [
       {
-        "__id__": 101
+        "__id__": 103
       }
     ],
     "_prefab": null,
@@ -940,7 +943,7 @@
     "_skewY": 0,
     "_zIndex": 0,
     "groupIndex": 0,
-    "_id": "37HWAe0T9KurQa+PWn4qGV"
+    "_id": "6aqeFwKZxF1q8yHeipBA77"
   },
   {
     "__type__": "cc.Label",
@@ -965,7 +968,7 @@
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
     "_N$overflow": 0,
-    "_id": "3bYlCn4+dGSoZ/RxL2hrk9"
+    "_id": "b2zmEyxs5LA6kQEvqs9EXn"
   },
   {
     "__type__": "cc.RichText",
@@ -2869,6 +2872,9 @@
     "needParseCommand": [
       ""
     ],
+    "audioSource": null,
+    "waitAudioSource": false,
+    "waitEndedCallback": null,
     "_id": "2a5EV2vn1Llq/s4Zd+ny9/"
   },
   {
@@ -4294,6 +4300,77 @@
     },
     "_enabled": true,
     "_id": "d845Mhua1J1rVUqX74QK98"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "AudioManager",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 102
+      }
+    ],
+    "_prefab": null,
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "groupIndex": 0,
+    "_id": "5b9FrNSJlF97WI6iBoABB8"
+  },
+  {
+    "__type__": "6103dSe8EVDy7rCfeRhILES",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 101
+    },
+    "_enabled": true,
+    "_id": "7083a2V6pBs5Aq+/BoeL0i"
   },
   {
     "__type__": "cc.Canvas",

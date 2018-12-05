@@ -250,22 +250,22 @@
     "relativePath": "Scene"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1543938845603,
+    "asset": 1544003189902,
     "meta": 1543504900247,
     "relativePath": "Script"
   },
   "2f21e47c-884b-4816-ad25-5c3ba0903612": {
-    "asset": 1543999354682,
-    "meta": 1543999354695,
+    "asset": 1544010243663,
+    "meta": 1544010243684,
     "relativePath": "Scene\\MainScene.fire"
   },
   "696a16e8-6113-49e4-a094-3e342177578f": {
-    "asset": 1543901867073,
+    "asset": 1544008015076,
     "meta": 1543547343736,
     "relativePath": "resources"
   },
   "a9c2ed74-5a53-43a8-9d70-b67409a23e1f": {
-    "asset": 1543995700420,
+    "asset": 1544000550885,
     "meta": 1543547343738,
     "relativePath": "resources\\json"
   },
@@ -313,11 +313,6 @@
     "asset": 1543892944407,
     "meta": 1543811924450,
     "relativePath": "Script\\vo"
-  },
-  "8f152b6a-629e-4ddf-b054-7a6f7d959235": {
-    "asset": 1543815172632,
-    "meta": 1543815709006,
-    "relativePath": "Script\\ResourceManager.ts"
   },
   "ad1be2f9-fdbf-41a9-a438-0c1934933740": {
     "asset": 1543936381016,
@@ -400,7 +395,7 @@
     "relativePath": "Script\\vo\\InputBox.ts"
   },
   "7b2caef2-9005-4157-b2ec-813413f6b683": {
-    "asset": 1543901894876,
+    "asset": 1543999748124,
     "meta": 1543901867074,
     "relativePath": "resources\\Texture"
   },
@@ -464,11 +459,6 @@
     "meta": 1543940967329,
     "relativePath": "Script\\parsers\\sprite\\SpriteCommandParser.ts"
   },
-  "6b48a004-ae0a-41b0-933f-6da001647e6b": {
-    "asset": 1543943104153,
-    "meta": 1543943108591,
-    "relativePath": "Script\\parsers\\DialogCommandParser.ts"
-  },
   "6b496587-1ff1-4ddc-85bd-01e1263d0d42": {
     "asset": 1543946599693,
     "meta": 1543946601917,
@@ -483,16 +473,6 @@
     "asset": 1543989439161,
     "meta": 1543989531619,
     "relativePath": "Script\\parsers\\WaitCommandParser.ts"
-  },
-  "405735b5-f643-40ba-b9a3-f032e46336d9": {
-    "asset": 1543999253524,
-    "meta": 1543999270655,
-    "relativePath": "resources\\json\\script.json"
-  },
-  "5e39021e-205a-4ee7-a200-b976cf1ef371": {
-    "asset": 1543999703487,
-    "meta": 1543999709138,
-    "relativePath": "Script\\DialogWindowManager.ts"
   },
   "9b428603-79a7-4ce0-833f-4e0356fc6097": {
     "asset": 1543999748132,
@@ -534,14 +514,84 @@
     "meta": 1543999844940,
     "relativePath": "Script\\VarManager.ts"
   },
-  "67fe2e32-aee3-49ee-94e7-d6734319759f": {
-    "asset": 1543999917597,
-    "meta": 1543999919289,
-    "relativePath": "Script\\AnimationManager.ts"
-  },
   "b0b5e3a2-eb07-4465-9af1-a8db282b2634": {
     "asset": 1544000060725,
     "meta": 1544000062496,
     "relativePath": "Script\\parsers\\DialogWindowCommandParser.ts"
+  },
+  "67fe2e32-aee3-49ee-94e7-d6734319759f": {
+    "asset": 1544005575507,
+    "meta": 1544006118327,
+    "relativePath": "Script\\AnimationManager.ts"
+  },
+  "eca058a1-5fce-4d96-aff4-28a0cd77f403": {
+    "asset": 1544008015082,
+    "meta": 1544008015076,
+    "relativePath": "resources\\se"
+  },
+  "2ee39820-08ff-4d4f-925c-d2599558e801": {
+    "asset": 1543993201870,
+    "meta": 1544008015408,
+    "relativePath": "resources\\se\\bird10.mp3"
+  },
+  "6038f591-05a5-498e-a2de-ef21ce7b4a53": {
+    "asset": 1543996970944,
+    "meta": 1544008015414,
+    "relativePath": "resources\\se\\katana-gesture1.mp3"
+  },
+  "f71cb155-1d0a-443b-ba28-8a98b1e88c49": {
+    "asset": 1543998455806,
+    "meta": 1544008015415,
+    "relativePath": "resources\\se\\785.mp3"
+  },
+  "9f092374-5bd1-4e38-98bd-65c09f5468b3": {
+    "asset": 1543996972837,
+    "meta": 1544008015422,
+    "relativePath": "resources\\se\\katana-slash5.mp3"
+  },
+  "0c2e2873-d1c6-420d-81c3-cc1864ceed7b": {
+    "asset": 1543996941827,
+    "meta": 1544008015425,
+    "relativePath": "resources\\se\\sword-battle1.mp3"
+  },
+  "79e1a68a-c1a9-4f7a-a9fc-81f9d2949a57": {
+    "asset": 1543996951283,
+    "meta": 1544008015427,
+    "relativePath": "resources\\se\\sword-clash2.mp3"
+  },
+  "a6759769-ddb6-46b5-a494-c63921742155": {
+    "asset": 1543996931768,
+    "meta": 1544008015432,
+    "relativePath": "resources\\se\\sword-drawn1.mp3"
+  },
+  "5fa17012-6ea5-4636-bb97-2fcfe3c1eeeb": {
+    "asset": 1543996959226,
+    "meta": 1544008015435,
+    "relativePath": "resources\\se\\sword-gesture1.mp3"
+  },
+  "405735b5-f643-40ba-b9a3-f032e46336d9": {
+    "asset": 1544011576779,
+    "meta": 1544011589211,
+    "relativePath": "resources\\json\\script.json"
+  },
+  "8f152b6a-629e-4ddf-b054-7a6f7d959235": {
+    "asset": 1544010140750,
+    "meta": 1544010143489,
+    "relativePath": "Script\\ResourceManager.ts"
+  },
+  "6103d49e-f045-43cb-bac2-7de46120b112": {
+    "asset": 1544010209269,
+    "meta": 1544010226534,
+    "relativePath": "Script\\AudioManager.ts"
+  },
+  "6b48a004-ae0a-41b0-933f-6da001647e6b": {
+    "asset": 1544017955338,
+    "meta": 1544017975323,
+    "relativePath": "Script\\parsers\\DialogCommandParser.ts"
+  },
+  "5e39021e-205a-4ee7-a200-b976cf1ef371": {
+    "asset": 1544018908073,
+    "meta": 1544020357936,
+    "relativePath": "Script\\DialogWindowManager.ts"
   }
 }

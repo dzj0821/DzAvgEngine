@@ -119,6 +119,18 @@
       "y": 0,
       "width": 520,
       "height": 728
+    },
+    "builder": {
+      "x": 979,
+      "y": 256,
+      "width": 670,
+      "height": 738
+    },
+    "project-settings": {
+      "x": 662,
+      "y": 241,
+      "width": 600,
+      "height": 564
     }
   }
 }
