@@ -44,6 +44,16 @@ export default class DialogWindowManager extends ManagerInterface {
     })
     defaultCharacterNameImageSpriteFrame: cc.SpriteFrame = null;
 
+    @property({
+        visible: false,
+    })
+    setMainTextAction: cc.Action = null;
+
+    @property({
+        visible: false,
+    })
+    targetMainText: string = "";
+
     onLoad () {
         DialogWindowManager.instance = this;
 
@@ -56,14 +66,32 @@ export default class DialogWindowManager extends ManagerInterface {
         //this.mainText.string = text;
         let i = 1;
         let delayTime = 0.1;
+        this.targetMainText = text;
+        cc.log("设置文字为" + text);
         //执行一个动作序列，先重复text.length次，每次将文本内容置为text.substring(0, i++)，随后等待delayTime秒的时间，即实现了打字机的效果
-        let action = cc.sequence(cc.repeat(cc.sequence(cc.callFunc(function(target, mainText: cc.RichText){
+        this.setMainTextAction = cc.sequence(cc.repeat(cc.sequence(cc.callFunc(function(target, mainText: cc.RichText){
             mainText.string = text.substring(0, i++);
         }, this, this.mainText), cc.delayTime(delayTime)), text.length), cc.callFunc(function(){
             //恢复接收输入状态
+            cc.log("打字机特效结束：" + text);
             ContentManager.instance.status = ContentStatus.Wait;
-        }));
-        this.node.runAction(action);
+            this.setMainTextAction = null;
+        }, this));
+        cc.log(this.setMainTextAction);
+        this.node.runAction(this.setMainTextAction);
+    }
+
+    shuntdownSetMainText(){
+        if(this.setMainTextAction === null){
+            cc.error("当前对话栏不在显示文字！");
+            return;
+        }
+        cc.log(this.setMainTextAction);
+        this.node.stopAction(this.setMainTextAction);
+        this.setMainTextAction = null;
+        ContentManager.instance.status = ContentStatus.Wait;
+
+        this.mainText.string = this.targetMainText;
     }
 
     setCharacterImage(path: string){

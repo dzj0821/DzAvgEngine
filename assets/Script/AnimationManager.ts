@@ -27,9 +27,12 @@ export default class AnimationManager extends ManagerInterface {
                 }), cc.fadeOut(time), cc.callFunc(this.onEndAnimation));
                 break;
             case "Blink":
+                /*
                 action = cc.sequence(cc.callFunc(function(){
                     node.opacity = 0;
                 }), cc.fadeIn(time / 2), cc.fadeOut(time / 2), cc.callFunc(this.onEndAnimation));
+                */
+                action = cc.sequence(cc.show(), cc.delayTime(time), cc.hide(), cc.callFunc(this.onEndAnimation));
                 break;
             case "Shark":
                 let randomRange = 100;

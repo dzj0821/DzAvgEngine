@@ -37,7 +37,7 @@ export default class DialogCommandParser extends CommandParserInterface {
         let dialogWindowManager = DialogWindowManager.instance;
         switch(jsonMessage.Command){
             case "":
-                ContentManager.instance.status = ContentStatus.Stop;
+                ContentManager.instance.status = ContentStatus.TextAnimation;
                 if(!this.isExistNull([jsonMessage.Arg1])){
                     if(typeof(jsonMessage.Arg1) != "string"){
                         cc.error("如果对话需要参数，则应传入一个类型为CharacterStatus的变量名");

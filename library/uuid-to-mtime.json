@@ -255,8 +255,8 @@
     "relativePath": "Script"
   },
   "2f21e47c-884b-4816-ad25-5c3ba0903612": {
-    "asset": 1544010243663,
-    "meta": 1544010243684,
+    "asset": 1544095378471,
+    "meta": 1544095378482,
     "relativePath": "Scene\\MainScene.fire"
   },
   "696a16e8-6113-49e4-a094-3e342177578f": {
@@ -444,11 +444,6 @@
     "meta": 1543929905186,
     "relativePath": "Script\\parsers\\var\\CharacterStatusVarCommandParser.ts"
   },
-  "b97acea2-ba2d-4e29-ad70-18b4c03f1189": {
-    "asset": 1543937875284,
-    "meta": 1543938269524,
-    "relativePath": "Script\\enum\\ContentStatus.ts"
-  },
   "b8ae277e-62ca-4074-97f6-a8d70ae5f1a3": {
     "asset": 1543940267146,
     "meta": 1543940606504,
@@ -458,11 +453,6 @@
     "asset": 1543940961893,
     "meta": 1543940967329,
     "relativePath": "Script\\parsers\\sprite\\SpriteCommandParser.ts"
-  },
-  "6b496587-1ff1-4ddc-85bd-01e1263d0d42": {
-    "asset": 1543946599693,
-    "meta": 1543946601917,
-    "relativePath": "Script\\ContentManager.ts"
   },
   "2c3919cd-f245-4769-a02f-3d8985ebd367": {
     "asset": 1543948918492,
@@ -475,14 +465,9 @@
     "relativePath": "Script\\parsers\\WaitCommandParser.ts"
   },
   "9b428603-79a7-4ce0-833f-4e0356fc6097": {
-    "asset": 1543999748132,
+    "asset": 1544075517326,
     "meta": 1543999748124,
     "relativePath": "resources\\Texture\\BG"
-  },
-  "0d26daab-ddd8-4d20-9e8b-bcc0bca700c5": {
-    "asset": 1543915988000,
-    "meta": 1543999748260,
-    "relativePath": "resources\\Texture\\BG\\地狱.jpg"
   },
   "d1d3bbeb-9782-4332-91fc-09656a457214": {
     "asset": 1543915278000,
@@ -518,11 +503,6 @@
     "asset": 1544000060725,
     "meta": 1544000062496,
     "relativePath": "Script\\parsers\\DialogWindowCommandParser.ts"
-  },
-  "67fe2e32-aee3-49ee-94e7-d6734319759f": {
-    "asset": 1544005575507,
-    "meta": 1544006118327,
-    "relativePath": "Script\\AnimationManager.ts"
   },
   "eca058a1-5fce-4d96-aff4-28a0cd77f403": {
     "asset": 1544008015082,
@@ -569,29 +549,54 @@
     "meta": 1544008015435,
     "relativePath": "resources\\se\\sword-gesture1.mp3"
   },
-  "405735b5-f643-40ba-b9a3-f032e46336d9": {
-    "asset": 1544011576779,
-    "meta": 1544011589211,
-    "relativePath": "resources\\json\\script.json"
-  },
   "8f152b6a-629e-4ddf-b054-7a6f7d959235": {
     "asset": 1544010140750,
     "meta": 1544010143489,
     "relativePath": "Script\\ResourceManager.ts"
   },
   "6103d49e-f045-43cb-bac2-7de46120b112": {
-    "asset": 1544010209269,
-    "meta": 1544010226534,
+    "asset": 1544020782521,
+    "meta": 1544020805584,
     "relativePath": "Script\\AudioManager.ts"
   },
+  "0d26daab-ddd8-4d20-9e8b-bcc0bca700c5": {
+    "asset": 1543915988000,
+    "meta": 1544075518544,
+    "relativePath": "resources\\Texture\\BG\\地狱.jpg"
+  },
+  "405735b5-f643-40ba-b9a3-f032e46336d9": {
+    "asset": 1544076497103,
+    "meta": 1544076547960,
+    "relativePath": "resources\\json\\script.json"
+  },
+  "67fe2e32-aee3-49ee-94e7-d6734319759f": {
+    "asset": 1544076631557,
+    "meta": 1544076634124,
+    "relativePath": "Script\\AnimationManager.ts"
+  },
+  "b97acea2-ba2d-4e29-ad70-18b4c03f1189": {
+    "asset": 1544078942672,
+    "meta": 1544078945263,
+    "relativePath": "Script\\enum\\ContentStatus.ts"
+  },
   "6b48a004-ae0a-41b0-933f-6da001647e6b": {
-    "asset": 1544017955338,
-    "meta": 1544017975323,
+    "asset": 1544079165657,
+    "meta": 1544079726994,
     "relativePath": "Script\\parsers\\DialogCommandParser.ts"
   },
+  "6b496587-1ff1-4ddc-85bd-01e1263d0d42": {
+    "asset": 1544080231212,
+    "meta": 1544080233338,
+    "relativePath": "Script\\ContentManager.ts"
+  },
   "5e39021e-205a-4ee7-a200-b976cf1ef371": {
-    "asset": 1544018908073,
-    "meta": 1544020357936,
+    "asset": 1544082612214,
+    "meta": 1544082717588,
     "relativePath": "Script\\DialogWindowManager.ts"
+  },
+  "87ab120c-3348-4bc8-83be-490967cda152": {
+    "asset": 1544095391586,
+    "meta": 1544095403276,
+    "relativePath": "Script\\parsers\\BGMCommandParser.ts"
   }
 }

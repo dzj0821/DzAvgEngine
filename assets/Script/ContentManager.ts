@@ -1,6 +1,7 @@
 import ManagerInterface from "./ManagerInterface";
 import CommandParserManager from "./parsers/CommandParserManager";
 import ContentStatus from "./enum/ContentStatus";
+import DialogWindowManager from "./DialogWindowManager";
 
 const {ccclass, property} = cc._decorator;
 
@@ -41,9 +42,12 @@ export default class ContentManager extends ManagerInterface {
             if(this.status == ContentStatus.Select || this.status == ContentStatus.Stop){
                 break;
             }
+            if(this.status == ContentStatus.TextAnimation){
+                DialogWindowManager.instance.shuntdownSetMainText();
+                break;
+            }
             CommandParserManager.instance.parse(this.jsonContent.json[this.line++]);
-            
-            if(this.status == ContentStatus.Wait){
+            if(this.status == ContentStatus.Wait || this.status == ContentStatus.TextAnimation){
                 break;
             }
         }while(true);

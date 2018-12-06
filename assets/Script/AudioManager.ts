@@ -1,6 +1,4 @@
 import ManagerInterface from "./ManagerInterface";
-import ContentStatus from "./enum/ContentStatus";
-import ContentManager from "./ContentManager";
 
 const {ccclass, property} = cc._decorator;
 
