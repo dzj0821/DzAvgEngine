@@ -5,4 +5,5 @@ export default class ContentStatus {
     static ReadNext = 3;
     static Select = 4;
     static Stop = 5;
+    static TextAnimation = 6;
 }

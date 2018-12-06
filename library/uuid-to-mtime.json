@@ -554,20 +554,10 @@
     "meta": 1544010143489,
     "relativePath": "Script\\ResourceManager.ts"
   },
-  "6103d49e-f045-43cb-bac2-7de46120b112": {
-    "asset": 1544020782521,
-    "meta": 1544020805584,
-    "relativePath": "Script\\AudioManager.ts"
-  },
   "0d26daab-ddd8-4d20-9e8b-bcc0bca700c5": {
     "asset": 1543915988000,
     "meta": 1544075518544,
     "relativePath": "resources\\Texture\\BG\\地狱.jpg"
-  },
-  "405735b5-f643-40ba-b9a3-f032e46336d9": {
-    "asset": 1544076497103,
-    "meta": 1544076547960,
-    "relativePath": "resources\\json\\script.json"
   },
   "67fe2e32-aee3-49ee-94e7-d6734319759f": {
     "asset": 1544076631557,
@@ -594,9 +584,19 @@
     "meta": 1544082717588,
     "relativePath": "Script\\DialogWindowManager.ts"
   },
+  "6103d49e-f045-43cb-bac2-7de46120b112": {
+    "asset": 1544096734480,
+    "meta": 1544096878325,
+    "relativePath": "Script\\AudioManager.ts"
+  },
+  "405735b5-f643-40ba-b9a3-f032e46336d9": {
+    "asset": 1544097026693,
+    "meta": 1544097029484,
+    "relativePath": "resources\\json\\script.json"
+  },
   "87ab120c-3348-4bc8-83be-490967cda152": {
-    "asset": 1544095391586,
-    "meta": 1544095403276,
+    "asset": 1544097082403,
+    "meta": 1544097084979,
     "relativePath": "Script\\parsers\\BGMCommandParser.ts"
   }
 }
