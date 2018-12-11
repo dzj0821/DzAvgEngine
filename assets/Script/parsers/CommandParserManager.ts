@@ -18,9 +18,6 @@ export default class CommandParserManager extends ManagerInterface {
 
     static instance : CommandParserManager = null;
 
-    @property([cc.Node])
-    parserNodes: cc.Node[] = [];
-
     @property({
         visible: false,
     })
@@ -30,20 +27,15 @@ export default class CommandParserManager extends ManagerInterface {
     onLoad () {
         CommandParserManager.instance = this;
         this.commandParsers = new Array<CommandParserInterface>();
-
-        this.parserNodes.forEach(node => {
-            let commandParser = node.getComponent(node.name);
-            if(commandParser == null){
-                cc.error("未找到和Node name对应的脚本，Parser脚本所在的Node必须与脚本同名");
-                return;
-            }
-            if(!(commandParser instanceof CommandParserInterface)){
-                cc.error("Parser必须继承自CommandParserInterface：" + node.name);
+        this.node.children.forEach(node => {
+            let commandParser = node.getComponent(CommandParserInterface);
+            if(commandParser === null){
+                cc.error("节点" + node.name + "未找到CommandParser");
                 return;
             }
             commandParser.needParseCommand.forEach(element => {
                 if(typeof(this.commandParsers[element]) != "undefined"){
-                    cc.error(node.name + "存在已被注册的Command，之前注册的内容将被覆盖");
+                    cc.error(node.name + "存在已被注册的Command："+ element +"，之前注册的内容将被覆盖");
                 }
                 this.commandParsers[element] = commandParser;
             });
